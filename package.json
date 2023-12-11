@@ -1,0 +1,46 @@
+{
+    "name": "sakura-v2-lra",
+    "displayName": "Sakura V2 By LeRoiAdib",
+    "description": "Sakura V2 By LeRoiAdib",
+    "version": "1.0.1",
+    "publisher": "LeRoiAdib",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/romainlau/sakura-theme"
+    },
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "sakura",
+        "romain",
+        "dark",
+        "laurent",
+        "pink",
+        "blue"
+    ],
+    "devDependencies": {
+        "@changesets/changelog-github": "^0.4.1",
+        "@changesets/cli": "^2.17.0",
+        "@primer/primitives": "7.10.0",
+        "chroma-js": "^2.1.2",
+        "color": "^3.1.2",
+        "nodemon": "^2.0.3",
+        "vsce": "^1.100.1"
+    },
+    "scripts": {
+        "start": "nodemon --watch src src/index.js",
+        "build": "node src/index.js && mkdir -p build",
+        "package": "vsce package -o ./build/github-vscode-theme.vsix",
+        "prepublishOnly": "npm run build && vsce publish",
+        "release": "changeset publish"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
