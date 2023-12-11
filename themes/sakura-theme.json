@@ -723,7 +723,7 @@
             "name": "Strings",
             "scope": "string",
             "settings": {
-                "foreground": "#f7f7ce"
+                "foreground": "#ffb28c"
             }
         },
         {
@@ -1821,8 +1821,8 @@
         "editor.wordHighlightStrongBorder": "#8c758466",
         "editor.wordHighlightBackground": "#8c758430",
         "editor.wordHighlightBorder": "#8c758466",
-        "editor.lineHighlightBackground": "#8c758430",
-        "editor.lineHighlightBorder": "#8c758430",
+        "editor.lineHighlightBackground": "#00000034",
+        "editor.lineHighlightBorder": "#8c758424",
         "editorLineNumber.activeForeground": "#ffeeff",
         "editorLink.activeForeground": "#ff72f0",
         "editorIndentGuide.background": "#ff72f0",
