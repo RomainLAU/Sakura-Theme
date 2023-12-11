@@ -4,7 +4,6 @@
     "description": "Sakura V2 By LeRoiAdib",
     "version": "1.5.0",
     "publisher": "LeRoiAdib",
-    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/RomainLAU/Sakura-Theme"
@@ -15,6 +14,15 @@
     "categories": [
         "Themes"
     ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Sakura V2 By LeRoiAdib",
+                "uiTheme": "vs-dark",
+                "path": "./themes/sakura-theme.json"
+            }
+        ]
+    },
     "keywords": [
         "theme",
         "sakura",
