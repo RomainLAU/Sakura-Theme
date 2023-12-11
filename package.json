@@ -7,7 +7,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/romainlau/sakura-theme"
+        "url": "https://github.com/RomainLAU/Sakura-Theme"
     },
     "engines": {
         "vscode": "^1.43.0"
